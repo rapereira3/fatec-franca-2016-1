@@ -7,18 +7,15 @@
   font-family: 'Fonte Títulos';
   src: url('../_fontes/DINMedium.ttf');
 }
-
 body {
   font-family: Verdana, Arial, sans-serif;
   font-size: 12pt;
   padding: 0;
   margin: 0 5vw;
 }
-
 ul, ol {
   list-style-position: inside;
 }
-
 header {
   background-image: linear-gradient(to bottom, #eeeeee, #cccccc);
   position: relative;
@@ -78,20 +75,16 @@ section a {
   text-decoration: none;
   transition: opacity 1s;
 }
-
 section a:hover {
   text-decoration: underline;
   opacity: 0.7;
 }
-
 section a:visited {
   text-decoration: wavy;
 }
-
 article {
   margin-bottom: 60pt;
 }
-
 article h1 {
   font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
   font-size: 200%;
@@ -99,7 +92,6 @@ article h1 {
   margin: 4px 0;
   border-bottom: 2px solid rgb(176, 17, 22);
  }
-
 article h3 {
   font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
   font-size: 80%;
@@ -107,7 +99,6 @@ article h3 {
   margin: 0;
   text-transform: uppercase;
 }
-
 article h4 {
   font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
   font-size: 60%;
@@ -115,7 +106,6 @@ article h4 {
   margin: 0 0 15px 0;
   float: left;
 }
-
 article figure {
   background-color: #dddddd;
   border: 8px solid #dddddd;
@@ -124,44 +114,36 @@ article figure {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
   width: 50%;
 }
-
 article figure figcaption {
   font-size: 75%;
   color: #aaaaaa;
   text-shadow: 1px 1px 1px #fff;
   text-align: center;
 }
-
 article figure img {
   width: 100%;
 }
-
 .figure-left {
   float: left;
   margin: 8px 20px 8px 0;
 }
-
 .figure-right {
   float: right;
   margin: 8px 0 8px 20px;
 }
-
 .float-right {
   float: right;
 }
-
 article p {
   text-align: justify;
   text-indent: 10%;
 }
-
 /* limpa as flutuações de ambos os lados */
 .clear-both:after {
   clear: both;
   display: block;
   content: "";
 }
-
 aside {
   background-color: moccasin;
   width: 35%;
